@@ -1,0 +1,20 @@
+{
+  "name": "hns-domain-ttr",
+  "version": "1.0.0",
+  "description": "check whether a domain has been rolled out for Handshake registering",
+  "main": "index.js",
+  "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stagas/hns-domain-ttr.git"
+  },
+  "keywords": [
+    "hns",
+    "handshake"
+  ],
+  "author": "stagas",
+  "license": "MIT",
+  "dependencies": {
+    "hsd": "^2.0.2"
+  }
+}
