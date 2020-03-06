@@ -15,7 +15,7 @@ function domaimTimeToRollout (name) {
   return time < 0 ? 0 : time
 }
 
-if (require.main === process.mainModule) {
+if (require.main === module) {
   const domain = process.argv[2]
   if (!domain) {
     console.log('usage: hns-domain-ttr <domain-name>')
